@@ -1,0 +1,106 @@
+/*--Para Limpar Formatações Padrão do Navegador(browse)-- a tag "*" seleciona todas tag--*/
+                                /*--Pode Formatar Qualquer Valor--*/
+ * {
+    margin: 0;
+    padding: 0;
+   }
+
+  body {
+  	font-size: 16px;
+  	font-family: "Trebuchet MS",helvetica, sans-serif;
+  	background: #f3f3f3;
+  }
+
+  #navegacao{
+  	background: #fff;
+  	border-bottom: 1px solid #d8d8d8; 
+    height: 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  #area{
+  	width: 720px;
+  	margin: 0 auto;
+       }
+
+  #logo{
+  	float: left;
+  }
+
+  #menu{
+  	float: right;
+  	padding: 10px 0;
+  }
+  
+   h2{
+    color: #b9c941;
+   }
+  
+  a {
+  	text-decoration: none;
+  	padding: 5px 7px;
+  }
+
+  a:link{
+  	color: #838383;
+  }
+
+  a:visited{
+  	color: #838383;
+  }
+
+  a:hover{
+    color: #FFFF;
+    background: #b9c941;
+    transition: 0.4s;
+  }
+  
+  a:active{
+  	color: #535353;
+  }
+
+   /*-----MENU-----*/
+
+
+
+  /*-----ESTRUTURA DO SITE-----*/
+
+  .verde{
+  	color: #b9c941;
+  }    
+
+
+  #area-principal{
+  	width: 720px;
+  	margin: 55px auto 10px auto;
+       }
+
+  #titulo-postagem{
+    background: #FFF;
+    padding: 10px;
+
+  }     
+
+  .data-postagem{
+  	font-size: 14px;
+  	border-bottom: 1px solid #f4f4f4;
+  	display: block;
+  	padding-bottom: 10px;
+  	margin-bottom: 10px;
+  }
+
+  .img-postagem{
+  	float: left;
+  	margin: 0 10px 1px 0;
+  }
+
+  .postado{
+  	border-left: 5px solid #d8d8d8;
+  	padding-left: 5px;
+  	display: block;
+  	margin-top: 10px;
+    font-style: italic;
+  }
+
